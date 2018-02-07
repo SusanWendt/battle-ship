@@ -20,6 +20,7 @@ public class DotCom {
 		if (index >= 0) {
 			locationCells.remove(index);
 			if (locationCells.isEmpty()) {
+				System.out.println("Ouch! You sunk " + name + "     :( ");
 				result = "kill";
 			} else {
 				result = "hit";
