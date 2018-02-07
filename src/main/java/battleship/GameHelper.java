@@ -49,7 +49,7 @@ public class GameHelper {
 			while (success && x < comSize) {
 				if (grid[location] == 0) {
 					coords[x++] = location;
-					location = +incr;
+					location += incr;
 					if (location >= gridSize) {
 						success = false;
 					}
